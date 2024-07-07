@@ -1,0 +1,93 @@
+<html>
+<head>
+<title>Exam Registration</title>
+<style>
+a.class1 {color:green;}
+a.class1:link  {text-decoration: none; color: green;}
+a.class1:visited {text-decoration: none; color: yellow;}
+a.class1:hover {text-decoration: underline; color: magenta;}
+a.class1:active {text-decoration: none; color: red;}
+
+
+a.class2 {color: brown;}
+a.class2:link {text-decoration: none; color: brown;}
+a.class2:visited {text-decoration: none; color: yellow;}
+a.class2:hover {text-decoration: underline; color: magenta;}
+a.class2:active {text-decoration: none; color: red;}
+
+a.class3 {color: cyan;}
+a.class3:link {text-decoration: none; color: cyan;}
+a.class3:visited {text-decoration: none; color: yellow;}
+a.class3:hover {text-decoration: underline; color: magenta;}
+a.class3:active {text-decoration: none; color: red;}
+
+input[type="submit"] {
+  cursor: pointer;
+</style>
+</head>
+<body bgcolor="sky blue"><center><font color="yellow" size="5">
+
+<h1>Welcome to our official website!</h1>
+<TABLE CELLSPACING="2" CELLPADDING="20" BORDER="2" BORDERCOLOR="red"  BGCOLOR="transparent">
+
+<TR   ALIGN="CENTER">
+<TD><font color="yellow" face="Times New Roman"><u>1</u></font></TD>
+<TD><FONT COLOR="green" FACE="impact"><A href="aboutexam.html" class="class1" target="_blank">About The Examination</A></TD>
+</TR></FONT>
+<TR  ALIGN="CENTER">
+<TD><font color="yellow" face="Times New Roman"><u>2</u></font></TD>
+<TD><FONT COLOR="BROWN" face="impact"><a href="#form1" class="class1">Click here to navigate to the form!</TD>
+</a></TR></FONT>
+</table>
+
+<H2><CENTER><marquee scrollamount="20">Don't miss out. Register Now!!!!</marquee>
+
+
+
+
+<h3>To register for the exam please fill in the form below!</h3>
+</center>
+</font>
+<font color="black">
+<form name="form1" id="form1" method="post" action="reg2.html" target="_blank" autocomplete="on" validate>
+<fieldset>
+<legend>Personal Information:</legend>
+<br><br>
+<label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" placeholder="First Name goes here..." size="30" required><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" placeholder="Last Name goes here..." size="30" required><br><br>
+<label for="dob">DOB</label>
+<input type="text/date" id="dob" name="dob" placeholder="DD-MM-YYYY" pattern="[0-9]{2}-[0-9]{2}-[0-9]{4}" required><br><br>
+<label for="">Identity Proof</label>
+<input type ="file" id="myfile"><br><br>
+
+<label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your Email Address" required><br><br>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" pattern="[0-9]{10}" required><br><br>
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" placeholder="Your Residential Address" rows="4" cols="50" required></textarea><br><br>
+      <label for="education">Educational Qualifications:</label>
+      <input type="text" id="education" name="education" placeholder="Your Educational Qualifications" required><br><br>
+      
+      <label for="testcenter">Test Center Preference:</label>
+      <input type="text" id="testcenter" name="testcenter" placeholder="Preferred Test Center" required><br><br>
+      <label for="gender">Gender:</label>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br><br>
+      <label for="nationality">Nationality:</label>
+      <input type="text" id="nationality" name="nationality" placeholder="Your Nationality" required><br><br>
+      <input type="checkbox" id="agreement" name="agreement" required>
+      <label for="agreement">I agree to the terms and conditions.</label><br><br>
+      <input type="Submit" value="Submit">
+</fieldset>
+</form>
+
+</font>
+</center>
+</body>
+</html>
+
